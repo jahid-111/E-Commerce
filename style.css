@@ -1,9 +1,13 @@
 body {
     margin: 0;
-    font-family: 'Poppins',
-        sans-serif;
+    /* font-family: 'Poppins',
+        sans-serif; */
 }
 
+/* 
+clear {
+    clear: both;
+} */
 
 header {
     padding: 2px 15px 3px 15px;
@@ -115,12 +119,15 @@ article {
 }
 
 
+.custom-head {}
+
 .customers-review {
-    height: 490px;
+    height: 512px;
     width: auto;
     border: 1px solid rebeccapurple;
     margin-top: 35px;
-    display: flex;
+    padding: 32px;
+
 }
 
 .rev {
@@ -129,8 +136,39 @@ article {
     border: 1px solid;
 }
 
-#review {
-    height: 180px;
-    width: 520px;
-    border: 1px solid violet;
+.rev1 {
+    display: flex;
+}
+
+#rev-top {
+    height: 250px;
+    width: 404px;
+    margin-right: 2px;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.rev2 {
+    display: flex;
+    margin-top: 2px;
+}
+
+#rev-bottom {
+    height: 250px;
+    width: 404px;
+    margin-right: 2px;
+    border: 1px solid red;
+    padding: 2px;
+}
+
+footer {
+    padding: 2px 15px 3px 15px;
+    height: 80px;
+    width: auto;
+    background-color: cornflowerblue;
+
+}
+
+.clear {
+    overflow: hidden;
 }
