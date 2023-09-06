@@ -45,14 +45,63 @@ article {
     width: 450px;
     float: right;
     margin: 25px 25px 5px 25px;
+    background-color: white;
 }
 
+
+.art-head {
+    display: flex;
+    height: 10%;
+    border: 1px solid;
+    width: auto;
+    margin: 10px 10px 10px 10px;
+}
+
+.art-head img {
+    height: 100%;
+    width: 25%;
+}
+
+.art-head h4 {
+    color: wheat;
+    margin: 14px 5px 33px 14px;
+    font-size: 22px;
+}
+
+.art-con {
+    margin: 10px 10px 10px 10px;
+}
+
+.art-con h2 {
+    font-size: 46px;
+}
+
+.art-con p {
+    font-size: 22px;
+}
+
+.art-con a {
+    text-decoration: none;
+    display: block;
+    color: gold;
+}
+
+
+
 .content-note {
-    height: 60px;
+    height: 80px;
     width: 90%;
     border: 1px solid #996e69;
-    margin: -30px 0px 0px 5%;
+    margin: -40px 0px 0px 5%;
     background: #e6d5d5;
+    display: flex;
+}
+
+.condition {
+    height: 93%;
+    width: 25%;
+    border: 1px solid gray;
+    margin: 2px;
 }
 
 .product-display {
@@ -60,8 +109,20 @@ article {
     width: 100%;
     border: 1px solid blueviolet;
     margin: 35px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
 
 }
+
+#displayp {
+    height: 95%;
+    width: 90%;
+    border: 1px solid;
+    margin: 45px 20px 0px 20px;
+}
+
+
+
 
 .product-off {
     height: 140px;
