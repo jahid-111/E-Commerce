@@ -14,8 +14,8 @@ header {
 }
 
 .logo {
-    height: 70px;
-    width: 400px;
+    height: 85%;
+    width: 45%;
     border: 1px solid;
     display: flex;
     margin: 0.5% 0% 0% 0%;
@@ -23,8 +23,8 @@ header {
 
 .logo img {
     height: 50px;
-    width: 27%;
-    margin: 2.5% 0% 0% 0%;
+    width: 20%;
+    margin: 1.5% 1% 2% 2%;
 }
 
 .logo h1 {
@@ -34,23 +34,34 @@ header {
 }
 
 .search {
+    height: 85%;
+    width: 45%;
     border: 1px solid;
-    float: right;
-    margin: 0% 0% 0% 25%;
-    width: 50%;
+    display: flex;
+    margin: 0.5% 0% 0% 10%;
+
 }
 
-#head-src {
-    margin: 4% 0% 4% 1%;
-    float: right;
+.srcbar {
+    margin: 2.5% 0% 0% 0%;
+    width: 100%;
 }
 
-#button {
-    height: 35px;
-    width: 11%;
-    background: radial-gradient(white, transparent);
+.src-input {
+    height: 33px;
+    width: 60%;
+    margin: 0% 1% 0% 10%;
 }
 
+
+.src-btn {
+    height: 38px;
+    width: 16%;
+    background: radial-gradient(#e9e2e2, transparent);
+    border: 1px;
+    color: darkslategrey;
+    font-weight: bold;
+}
 
 
 
